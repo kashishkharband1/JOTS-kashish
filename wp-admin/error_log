@@ -1,0 +1,17 @@
+[25-Feb-2021 07:38:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Modules\DevTools\Module' not found in /home/sbiteogo/public_html/jots/wp-content/plugins/elementor/core/modules-manager.php:53
+Stack trace:
+#0 /home/sbiteogo/public_html/jots/wp-content/plugins/elementor/includes/plugin.php(600): Elementor\Core\Modules_Manager->__construct()
+#1 /home/sbiteogo/public_html/jots/wp-content/plugins/elementor/includes/plugin.php(514): Elementor\Plugin->init_components()
+#2 /home/sbiteogo/public_html/jots/wp-includes/class-wp-hook.php(287): Elementor\Plugin->init('')
+#3 /home/sbiteogo/public_html/jots/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sbiteogo/public_html/jots/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/sbiteogo/public_html/jots/wp-settings.php(557): do_action('init')
+#6 /home/sbiteogo/public_html/jots/wp-config.php(90): require_once('/home/sbiteogo/...')
+#7 /home/sbiteogo/public_html/jots/wp-load.php(37): require_once('/home/sbiteogo/...')
+#8 /home/sbiteogo/public_html/jots/wp-admin in /home/sbiteogo/public_html/jots/wp-content/plugins/elementor/core/modules-manager.php on line 53
+[26-Feb-2021 06:14:19 UTC] PHP Fatal error:  Uncaught Error: Class '\ElementorPro\Modules\ThemeBuilder\Conditions\Any_child_of' not found in /home/sbiteogo/public_html/jots/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:177
+Stack trace:
+#0 /home/sbiteogo/public_html/jots/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(188): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('any_child_of', Array)
+#1 /home/sbiteogo/public_html/jots/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(188): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('any_child_of', Array)
+#2 /home/sbiteogo/public_html/jots/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(259): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->register_condition('singular')
+#3 /home/sbiteogo/public_html/jots/wp-includes/class-wp-hook.php(287): ElementorPro\Modules\ThemeBuilder\Classe in /home/sbiteogo/public_html/jots/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 177
